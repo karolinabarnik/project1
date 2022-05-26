@@ -1,0 +1,142 @@
+.container {
+    margin: 0 auto;
+  }
+  
+  header {
+    position: fiexed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #fff;
+  }
+  
+  .one {
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
+  
+  .one.active {
+    top: 0px;
+  }
+
+  .topbar {
+    position: relative;
+  }
+  
+  .topbar-right {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    top: 0;
+    right: 0;
+    background-color: #1448ed;
+    border: 0;
+  }
+  
+  .topbar-lang-choose {
+    font-size: 1rem;
+  }
+  
+  .topbar-search {
+    padding: 8px 11 px 7px;
+    color: #fff;
+    background-color: #1448ed;
+  }
+  
+  .topbar-menu {
+    background-color: #030c11;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 20px 180px;
+    font-size: 1.5rem;
+    justify-content: flex-start;
+    position: absolute;
+    width: 100%;
+  }
+  
+ 
+  nav .topbar-tech {
+    color: #1be2bc;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  .topbar-tech:hover {
+    color: #fff;
+  }
+  
+  .topbar-trigger {
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    background-color: #030c11;
+    cursor: pointer;
+    position: relative;
+    font-size: 1.5rem;
+    padding: 0 30px;
+    font-weight: 700;
+  }
+  
+  .material-icons-outlined {
+    color: white;
+  }
+  
+  .topbar-item {
+    padding-right: 80px;
+    display: inline-block;
+  }
+  
+  .topbar-trigger:hover {
+    color: #1be2bc;
+  }
+  
+  .topbar-submenu {
+    text-decoration: none;
+    position: absolute;
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 15px 15px;
+    transform: translate(-50%, 145%);
+    background-color: #fff;
+    left: 40%;
+    top: -10%;
+    overflow: auto;
+    border-radius: 4%;
+    width: 100%;
+  }
+  
+  .topbar-submenu-item {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    color: #030c11;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding: 5px 40px;
+    margin: 5px 15px;
+  }
+  
+  .topbar-submenu-item:hover {
+    background-color: #1be2bc;
+    border-radius: 7%;
+    transition-duration: .4s;
+  }
+
+  .dropdown {
+    display: none;
+    text-decoration: none;
+    top: 100%;  
+  }
+
+  .show {
+    display: block;
+  }
+
+ 
+

@@ -1,0 +1,145 @@
+.oneone {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    display: block;
+    z-index: 98;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 50px;
+    justify-content: flex-start;
+  }
+
+  .nav {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 130px 0 130px;
+    margin-top: 10px;
+  }
+
+  .nav-content {
+    justify-content: flex-start;
+  }
+
+  .nav-logo-img {
+    height: 100px;
+    width: 250px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+  }
+  
+  .dropdown {
+    position: absolute;
+    min-width: 160px;
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 15px 10px 10px 10px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 4%;
+    z-index: 1;
+    overflow: auto;
+}
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .nav-link {
+    padding: 10px 30px;
+    list-style-type: none;
+    position: relative;
+    display: inline-block;
+    width: 15%;
+  }
+  
+  .nav-trigger {
+    background-color: #fff;
+    border: none;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 0 80px;
+  }
+  
+  .nav-submenu {
+    display: none;
+    min-width: 160px;
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 15px 60px;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: #fff;
+    left: 50%;
+    border-radius: 4%;
+    top: 140%;
+    z-index: 1;
+    overflow: auto;
+  }
+  
+  .nav-separator1 {
+    display: block;
+    padding: 15px 80px;
+    margin: 5px 0;
+    color: #4d7ae8;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 800;
+    border-top: 2px solid rgba(153, 153, 153, 0.2);
+    transition: background-color .25s ease,opacity .25s ease .35s,color .25s ease;
+  }
+  
+  .nav-separator1:hover {
+    color: #fff;
+    background-color: #4d7ae8;
+    border-radius: 5%;
+  }
+  
+  .nav-submenu-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    display: block;
+    min-width: 280px;
+    padding: 10px 40px;
+  }
+  
+  .nav-submenu-link:hover {
+    background-color: #1be2bc;
+    border-radius: 5%;
+    transition-duration: .2s;
+  }
+  
+  .showsubnav {
+    display: block;
+  }
+  
+  .hamburger {
+    display: none;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+  }

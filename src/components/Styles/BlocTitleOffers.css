@@ -1,0 +1,22 @@
+.offers {
+    background-color: #f7f7f7;
+    padding: 20px 170px 10px 170px;
+  }
+  
+  .bloc-head-off {
+    font-weight: 800;
+  }
+  
+  .title-offers {
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-bottom: 1px;
+  }
+  
+  .subtitle-offers {
+    font-size: 4rem;
+    color: #c9c9c9;
+    font-weight: 500;
+    margin-top: 1px;
+  }
+  

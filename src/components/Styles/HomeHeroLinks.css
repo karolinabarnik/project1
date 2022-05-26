@@ -1,0 +1,29 @@
+.home-hero-links {
+  max-height: 90vh;
+  position: absolute;
+  font-weight: 800;
+  top: 60%;
+  transform: translate(30%, -20%);
+}
+
+.home-hero-link {
+  width: 190px;
+  padding: 40px 80px;
+  margin: 0 20px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 800;
+  transition: .3s;
+  background-color: rgba(3, 12, 17, 0.7);
+  border-radius: 52px;
+  cursor: pointer;
+  transition: background-color .25s ease;
+  text-decoration: none;
+}
+
+.home-hero-link:hover {
+  background-color: #1be2bc;
+  transition-duration: 0.25s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}

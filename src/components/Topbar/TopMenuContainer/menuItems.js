@@ -3,10 +3,13 @@ export const menuItems = [
      title: "Consulting & Innovation",
      submenu: [
          {
-            title: "Clound & DevOps"
+            title: "Clound & DevOps",
+            link: "https://www.kaliop.com/en/expertises/our-devops-cloud-expertise/",
          },
          {
-            title: "Data"
+            title: "Data",
+            link: "https://www.kaliop.com/en/sub-expertises/data/",
+
          }
         ]
     },
@@ -23,31 +26,40 @@ export const menuItems = [
     title: "Customers",
     submenu: [
         {
-           title: "All industries"
+           title: "All industries",
+           link: "https://www.kaliop.com/en/references/",
         },
         {
-           title: "Banking & Insurance"
+           title: "Banking & Insurance",
+           link: "https://www.kaliop.com/en/references/#finance",
         },
         {
-            title: "Healthcare"
+            title: "Healthcare",
+            link: "https://www.kaliop.com/en/references/#health-sector",
          },
          {
-            title: "Industry"
+            title: "Industry",
+            link: "https://www.kaliop.com/en/references/#industry",
          },
          {
-            title: "Media"
+            title: "Media",
+            link: "https://www.kaliop.com/en/references/#media",
          },
          {
-            title: "Public"
+            title: "Public",
+            link: "https://www.kaliop.com/en/references/#public-sector",
          },
          {
-            title: "Reatil"
+            title: "Reatil",
+            link: "https://www.kaliop.com/en/references/#retail-en",
          },
          {
-            title: "Services"
+            title: "Services",
+            link: "https://www.kaliop.com/en/references/#service-industry",
          },
          {
-            title: "Tourism"
+            title: "Tourism",
+            link: "https://www.kaliop.com/en/references/#tourism",
          },
 
        ]
@@ -56,10 +68,12 @@ export const menuItems = [
     title: "Publications",
     submenu: [
         {
-            title: "Blog"
+            title: "Blog",
+            link: "https://www.kaliop.com/en/blog/",
          },
          {
-            title: "Resources"
+           title: "Resources",
+           link: "https://www.kaliop.com/en/resources/",
          }, 
     ]
     },

@@ -7,7 +7,7 @@ const NavDropdown = ({ submenus, dropdown }) => {
     <ul className={`dropdown ${dropdown ? "show" : ""}`}>
         {submenus.map((submenu, index) => (
         <li key={index} className="nav-submenu-link">
-            <a href="/#">{submenu.title}</a>
+            <a href={submenu.link} className="nav-submenu-link">{submenu.title}</a>
         </li>
     ))}
         <li>

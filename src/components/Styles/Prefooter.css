@@ -35,3 +35,9 @@
     color: #4d7ae8;
   }
   
+  @media screen and (max-width: 1280px) {
+    
+    .prefooter {
+      width: 100vw;
+    }
+  }

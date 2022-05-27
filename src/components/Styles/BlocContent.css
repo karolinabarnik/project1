@@ -120,3 +120,24 @@
     position: relative;
     transform: translate(-160%, 4000%);
   }
+
+  @media screen and (max-width: 1280px) {
+
+    .blocs-overlay {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .offers-second {
+      margin: 0 auto;
+      display: flex;
+      width: 100vw;
+    }
+
+    .container {
+      flex-direction: column;    
+
+    }
+    
+  }

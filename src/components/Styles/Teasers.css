@@ -243,4 +243,54 @@
     padding-left: 20px;
   }
 
+  @media screen and (max-width: 1280px) {
+    .subtitle-ref {
+      font-weight: 300;
+      text-align: center;
+    }
+    .references {
+      padding: 20px;
+    }
+    .teasers {
+      display: block;
+    }
+    .teasers-item {
+      flex: 1;
+    }
+    .teasers-image {
+      max-width: 1280px;
+    }
+    .teasers-img {
+      max-width: 100vw;
+    }
+    .block-head {
+      justify-content: column;
+    }
 
+    .teasers-img3 {
+      height: 50vh;
+      width: 90%;
+    }   
+
+    .teasers-img2 {
+      height: 50vh;
+      width: 100vw;
+    }
+    
+    .teasers-img1 {
+      height: 50vh;
+      width: 100%;
+    }
+
+    .teasers-img4 {
+      height: 50vh;
+      width: 100%;
+    }
+
+    .teasers-logo-background2 {
+      height: 20vh;
+      width: 100%;
+    }
+    
+
+  }

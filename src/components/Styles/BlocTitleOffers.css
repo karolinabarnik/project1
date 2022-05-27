@@ -19,4 +19,13 @@
     font-weight: 500;
     margin-top: 1px;
   }
+
+  @media screen and (max-width: 1280px) {
+    .offers {
+      width: 100%;
+      background-color: #f7f7f7;
+    }
+
+   
+  }
   

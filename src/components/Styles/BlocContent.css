@@ -121,7 +121,7 @@
     transform: translate(-160%, 4000%);
   }
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 991px) {
 
     .blocs-overlay {
       flex-direction: column;

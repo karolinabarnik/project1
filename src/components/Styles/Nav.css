@@ -144,7 +144,7 @@
     background-color: #101010;
   }
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 991px) {
     .nav {
       padding: 10px;
     }
@@ -161,6 +161,9 @@
 
     .oneone {
       margin-top: 0;
+      width: 100vw;
+      flex-direction: column;
+
     }
 
     .topbar {

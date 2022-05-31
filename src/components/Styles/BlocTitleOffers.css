@@ -24,8 +24,13 @@
     .offers {
       width: 100%;
       background-color: #f7f7f7;
+      padding: 20px 20px 10px 20px;
     }
+     
+    .bloc-item {
+      width: 80%;
 
+    }
    
   }
   

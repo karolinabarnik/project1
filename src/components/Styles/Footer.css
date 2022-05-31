@@ -109,3 +109,13 @@ footer {
   .icon-footer-copyright {
     font-weight: 800;
   }
+
+  @media screen and (max-width: 991px) { 
+    footer {
+      padding: 20px;
+    }
+
+    .footer-socialnetwork {
+    flex: none;
+    }
+  }

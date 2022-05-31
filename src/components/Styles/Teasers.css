@@ -258,7 +258,7 @@
       flex: 1;
     }
     .teasers-image {
-      max-width: 1280px;
+      max-width: 991px;
     }
     .teasers-img {
       max-width: 100vw;
@@ -269,28 +269,40 @@
 
     .teasers-img3 {
       height: 50vh;
-      width: 90%;
+      width: 80%;
     }   
 
     .teasers-img2 {
       height: 50vh;
-      width: 100vw;
+      width: 80%
+
     }
     
-    .teasers-img1 {
+    .teasers-img {
       height: 50vh;
-      width: 100%;
+      width: 80%;
     }
 
     .teasers-img4 {
       height: 50vh;
-      width: 100%;
+      width: 80%;
+
     }
 
+    .teasers-logo-background {
+      display: none;
+    }
     .teasers-logo-background2 {
-      height: 20vh;
-      width: 100%;
+      display: none;
+    }
+    .teasers-logo-background3 {
+      display: none;
+    }
+    .teasers-logo-background4 {
+      display: none;
     }
     
-
+    .teasers-tag {
+      flex-direction: column;
+    }
   }

@@ -148,10 +148,6 @@
     .nav {
       padding: 10px;
     }
-  
-    .nav-content {
-      padding: 0 10px;
-    }
 
     .nav-container {
       margin: 0px;
@@ -182,10 +178,6 @@
       box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     }
 
-    .nav-links.active {
-      left: 0;
-    }
-
     .nav-link {
       margin: 2.5rem 0;
     }
@@ -195,15 +187,15 @@
       cursor: pointer;
     }
 
-    .hamburger.active .bar:nth-child(2) {
+    .menuNav.showMenu .bar:nth-child(2) {
       opacity: 0;
     }
 
-    .hamburger.active .bar:nth-child(1) {
+    .menuNav.showMenu .bar:nth-child(1) {
       transform: translateY(8px) rotate(45deg);
     }
 
-    .hamburger.active .bar:nth-child(3) {
+    .menuNav.showMenu .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
     }
 
@@ -221,15 +213,7 @@
     }
 
     .nav-menu {
-      display: none;
-    }
-
-    .bar {
-      width: 3rem;
-    }
-
-    .showmenu {
-
+      visibility: hidden;
     }
     
     .burgerButton {

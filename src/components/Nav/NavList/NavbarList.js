@@ -22,13 +22,13 @@ const NavList = () => {
       </ul>
      </nav>
      <div class="hamburger" id="myDIV">
-       <button className="burgerButton" onClick={handleToggle}>{navbarOpen ? "Close" : "Open"}
-       <ul className={`menuNav ${navbarOpen ? "showMenu" : ""}`}>
+      <button className="burgerButton" onClick={handleToggle}>{navbarOpen ? "" : ""}
+      <ul className={`menuNav ${navbarOpen ? "showMenu" : ""}`}>
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
-        </ul>
-        </button>
+      </ul>
+      </button>
       </div> 
     </div> 
     );

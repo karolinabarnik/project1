@@ -22,7 +22,6 @@
 
   @media screen and (max-width: 991px) {
     .offers {
-      width: 100%;
       background-color: #f7f7f7;
       padding: 20px 20px 10px 20px;
     }

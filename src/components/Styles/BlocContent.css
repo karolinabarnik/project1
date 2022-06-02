@@ -130,13 +130,20 @@
     }
 
     .offers-second {
-      width: 100%;
       padding: 20px;
     }
 
     .container {
       flex-direction: column;    
+    }
 
+    .bloc-item {
+      width: auto;
+    }
+
+    .bloc-overlay-icon {
+      margin: 0;
+      font-size: 2rem;    
     }
     
   }

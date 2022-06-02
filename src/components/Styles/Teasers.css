@@ -286,17 +286,39 @@
     .teasers-logo-background {
       display: none;
     }
+
     .teasers-logo-background2 {
       display: none;
     }
+
     .teasers-logo-background3 {
       display: none;
     }
+
     .teasers-logo-background4 {
       display: none;
     }
     
     .teasers-tag {
-      flex-direction: column;
+      flex-wrap: wrap;
+      padding-top: 10px ;
+    }
+
+    .teasers-links{
+      font-size: 1.3rem;
+    }
+
+    .teasers-border {
+      border-right: 1px solid #030c11;
+      height: 30px;
+    }
+
+    .teasers-tag1, .teasers-tag2, .teasers-tag3, .teasers-tag4 {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 10px 0;
     }
   }

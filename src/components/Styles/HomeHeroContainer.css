@@ -20,5 +20,6 @@
 @media (max-width: 991px) {
   .home-hero {
     flex-direction: column;
+    height: 52rem;
   }
 }
